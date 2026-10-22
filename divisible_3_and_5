@@ -1,0 +1,9 @@
+num=int(input("Enter a number: "))
+if num%3==0 and num%5==0:
+  print ("Divisible by 3 and 5 both")
+elif num%3==0:
+  print ("Divisible by 3 only")
+elif num%5==0:
+  print ("Divisible by 5 only")
+else:
+  print ("Not divisible by anything")
